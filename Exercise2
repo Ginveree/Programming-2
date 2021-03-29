@@ -1,0 +1,26 @@
+package OOP;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pencil a = new Pencil();//create new object named as a
+		System.out.println("Type of pencil: " + a.type);
+		System.out.println("Size: " + a.size + "cm");
+		System.out.println("Brand: " + a.brand);
+		System.out.println("The uses of a Coloured Pencil:");
+		a.printDrawing();
+		a.printSketching();
+		a.printWriting();
+		System.out.println();
+		
+        Sheep b = new Sheep();//create new object named as b
+        System.out.println("Name of sheep: MoMu");
+        b.printSize();
+        System.out.println("Colour: " + b.colour);
+        System.out.println("Milk produced: " + b.milk + " litre per day");
+        System.out.println("Wool produced: " + b.wool + " pound each year");
+        System.out.println("Momu usually born " + b.born + " lambs at each birthing event");
+	}
+
+}
